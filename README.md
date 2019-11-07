@@ -9,7 +9,7 @@
 boost::shared_ptr<IQuerySensitive> query_sensitive_;
 
 //赋值初始化
-query_sensitive_ = boost::make_shared<SensitiveQueryDFA>();
+query_sensitive_ = boost::make_shared < SensitiveQueryDFA >();
 
 
 //使用
